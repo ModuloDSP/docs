@@ -1,25 +1,17 @@
----
-layout: default
-math: true
-render_with_liquid: false
-bibliography:
-- ref.bib
----
-
 # Introduction
 
 Complex numbers arise in various areas of science and engineering.
 Examples include Fourier analysis, a fundamental tool in signal
 processing, phasors for analyzing electrical circuits, and solving
-special types of differential equations. The purpose of this article is
+special types of differential equations. The purpose of this document is
 to present an overview of the theory behind complex numbers and discuss
-their usefulness in a selected applications. By the end of the article,
+their usefulness in a selected applications. By the end of the document,
 we shall have an understanding of why, for instance, the following
 integration is valid, and how it can be interpreted:
 
 $$\int_{a}^{b} e^{ixt}dt = \frac{e^{ixt}}{ix} \Big|_{a}^b = \frac{1}{ix}(e^{ibt} - e^{iat})$$
 
-The article is structured as follow: First, an overview of complex
+The document is structured as follow: First, an overview of complex
 numbers is presented. Subsequently, Fourier series, as a method for
 decomposing a periodic function into the summation of sines and cosines
 is discussed, and lastly the application of complex numbers in Fourier
@@ -49,7 +41,7 @@ exponentiation*. In other words, *what does it mean to raise a number to
 a complex number?* There are a number of equivalent ways to define
 complex exponentiation. One way is as follows:
 
-$$e^z = 1 + z + \frac{{z}^2}{2!} +  \frac{{z}^3}{3!} +  \frac{{z}^4}{4!} + ...$$
+$$e^z = 1 + z + \frac{ {z}^2}{2!} +  \frac{ {z}^3}{3!} +  \frac{ {z}^4}{4!} + ...$$
 
 Where $z$ is a complex number of the form $a + ib$. This definition is
 based on the Taylor series expansion, and by choosing $z$ to be real,
@@ -58,9 +50,9 @@ definition, replacing $z$ with $ix$ makes it straightforward to verify
 Euler's formula. Specifically:
 
 $$\begin{aligned}
-    e^{ix} &= 1 + ix + \frac{{(ix)}^2}{2!} +  \frac{{(ix)}^3}{3!} +  \frac{{(ix)}^4}{4!} + \dots \\
-    &= 1 + ix - \frac{{x}^2}{2!} - \frac{{ix}^3}{3!} + \frac{{x}^4}{4!} + \dots \\
-    &= \left(1 - \frac{{x}^2}{2!} + \frac{{x}^4}{4!} - \frac{{x}^6}{6!} + \dots \right) + i \left(x - \frac{{x}^3}{3!} + \frac{{x}^5}{5!} - \frac{{x}^7}{7!} + \dots \right) \\
+    e^{ix} &= 1 + ix + \frac{ {(ix)}^2}{2!} +  \frac{ {(ix)}^3}{3!} +  \frac{ {(ix)}^4}{4!} + \dots \\
+    &= 1 + ix - \frac{ {x}^2}{2!} - \frac{ {ix}^3}{3!} + \frac{ {x}^4}{4!} + \dots \\
+    &= \left(1 - \frac{ {x}^2}{2!} + \frac{ {x}^4}{4!} - \frac{ {x}^6}{6!} + \dots \right) + i \left(x - \frac{ {x}^3}{3!} + \frac{ {x}^5}{5!} - \frac{ {x}^7}{7!} + \dots \right) \\
     &= \cos{x} + i\sin{x}
 \end{aligned}$$
 
@@ -326,7 +318,7 @@ complex coefficients.
 
 ## Conclusion
 
-This article presents an introduction to complex numbers as well as the
+This document presents an introduction to complex numbers as well as the
 calculus involving complex-valued real variable functions. As discussed,
 complex numbers and the exponential function provide convenient rules
 for the evaluation of integrals for Fourier series in a compact way.
@@ -334,5 +326,5 @@ More advanced operations involving complex numbers, such as integration
 and differentiation of complex-valued complex-variable functions, also
 exist. The application of these types of calculus includes the Laplace
 transform, which has found numerous applications in engineering. In the
-subsequent article, these types of more advanced concepts involving
+subsequent document, these types of more advanced concepts involving
 complex numbers are discussed.
