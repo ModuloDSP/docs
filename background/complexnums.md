@@ -1,3 +1,7 @@
+---
+layout: default
+title: Complex Numbers
+---
 # Introduction
 
 Complex numbers arise in various areas of science and engineering.
