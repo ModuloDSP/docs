@@ -7,7 +7,7 @@ This repo is intended to provide more details info on the usage of the software 
 You may find the relevant link below:
 
 0. Background:
-   1. [thoery/complexnums.md](Overview of complex numbers and Fourier transform)
+   1. [background/complexnums.md](Overview of complex numbers and Fourier transform)
    2. Overview of Linear algebera
 1. Tutorial
    1. Desining IIR filters
