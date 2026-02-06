@@ -1,7 +1,9 @@
 ---
+layout: default
+math: true
+render_with_liquid: false
 bibliography:
 - ref.bib
-- render_with_liquid: false
 ---
 
 # Introduction
