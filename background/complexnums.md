@@ -1,6 +1,7 @@
 ---
 bibliography:
 - ref.bib
+- render_with_liquid: false
 ---
 
 # Introduction
